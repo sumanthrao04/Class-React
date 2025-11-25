@@ -1,15 +1,15 @@
-
-
 import './App.css'
+import DayOne from './components/Dayone.jsx'
+import DayTwo from './components/DayTwo.jsx'
 
 function App() {
  
 
   return (
     <>
-       <h1>Hello World</h1>
-        <p>Welcome to React with Vite!</p>
-        <p>First App</p>
+       <h1>User Information</h1>
+        <DayOne/>
+        <DayTwo/>
     </>
   )
 }
